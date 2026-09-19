@@ -2,25 +2,6 @@
 
 双面卡牌堆叠德式桌游的可玩网页版（单文件、完全自包含，浏览器直接运行，无需服务器）。
 
-## 部署到 GitHub Pages（一次 5 分钟）
-
-1. 注册 / 登录 [github.com](https://github.com)，点击右上角 `+` → **New repository**
-2. 仓库名随意（如 `mystic-workshop`），可见性选 **Public**，其余保持默认，创建仓库
-3. 进入仓库页 → 点击 **Add file → Upload files**
-4. 把本目录下的三个文件拖进去：
-   - `index.html`（游戏本体，**必须保留这个名字**，GitHub Pages 靠它作为入口）
-   - `README.md`（本说明，可留可删）
-   - `.nojekyll`（空文件，防止 Jekyll 干扰）
-5. 点 **Commit changes** 上传完成
-6. 进入仓库 **Settings → Pages**，Source 选 **Deploy from a branch**，Branch 选 `main` + `/ (root)`，点 **Save**
-7. 等 1~3 分钟，页面顶部会出现你的网站地址：
-   `https://你的用户名.github.io/仓库名/`
-8. 用手机和电脑浏览器打开该地址即可游玩、分享给任何人
-
-## 更新游戏版本
-
-每次规则改动后，用新版 `index.html` **覆盖上传**（同路径同名），GitHub Pages 会在几分钟内自动发布新版本。查看时若还是旧内容，**强制刷新**（手机浏览器一般清缓存后重进）即可。
-
 ## 游戏简介（快速上手）
 
 - 双面卡：正面 = 6 资源位 + 订单 + 技能 + 得分；反面 = 建筑效果（建造后持续生效）
